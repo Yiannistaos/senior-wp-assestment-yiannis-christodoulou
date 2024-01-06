@@ -94,6 +94,8 @@ composer.lock
 #===================================#
 /wp-app/*
 /wp-app/wp-content/*
+/wp-app/wp-content/plugins/disable-gutenberg
+/wp-app/wp-content/plugins/ansar-import/
 /wp-app/wp-content/plugins/akismet
 /wp-app/wp-content/plugins/hello.php
 /wp-app/wp-content/plugins/index.php
