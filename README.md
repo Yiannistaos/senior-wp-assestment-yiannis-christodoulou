@@ -1,19 +1,21 @@
+> Click [here](https://github.com/Yiannistaos/senior-wp-assestment-yiannis-christodoulou/tree/main/wp-was-this-article-helpful/trunk) to see the Documentation of the **"Was This Article Helpful? - WordPress plugin"**, by Yiannis Christodoulou, or navigate to the `/wp-was-this-article-helpful/trunk` directory in this repo.
+
 # WPDC - WordPress Docker Compose
 
 Easy WordPress development with Docker and Docker Compose.
 
 With this project you can quickly run the following:
 
-- [WordPress and WP CLI](https://hub.docker.com/_/wordpress/)
-- [phpMyAdmin](https://hub.docker.com/r/phpmyadmin/phpmyadmin/)
-- [MySQL](https://hub.docker.com/_/mysql/)
+-   [WordPress and WP CLI](https://hub.docker.com/_/wordpress/)
+-   [phpMyAdmin](https://hub.docker.com/r/phpmyadmin/phpmyadmin/)
+-   [MySQL](https://hub.docker.com/_/mysql/)
 
 Contents:
 
-- [Requirements](#requirements)
-- [Configuration](#configuration)
-- [Installation](#installation)
-- [Usage](#usage)
+-   [Requirements](#requirements)
+-   [Configuration](#configuration)
+-   [Installation](#installation)
+-   [Usage](#usage)
 
 ## Requirements
 
@@ -43,8 +45,8 @@ docker-compose up
 
 This creates two new folders next to your `docker-compose.yml` file.
 
-* `wp-data` – used to store and restore database dumps
-* `wp-app` – the location of your WordPress application
+-   `wp-data` – used to store and restore database dumps
+-   `wp-app` – the location of your WordPress application
 
 The containers are now built and running. You should be able to access the WordPress installation with the configured IP in the browser address. By default it is `http://127.0.0.1`.
 
@@ -86,8 +88,8 @@ docker-compose down -v
 
 Copy the `docker-compose.yml` file into a new directory. In the directory you create two folders:
 
-* `wp-data` – here you add the database dump
-* `wp-app` – here you copy your existing WordPress code
+-   `wp-data` – here you add the database dump
+-   `wp-app` – here you copy your existing WordPress code
 
 You can now use the `up` command:
 
